@@ -5,36 +5,36 @@
 		"loglevel": "warning"
 	},
 	"inbounds": [{
-			"port": 10000,
+			"port": 23333,
 			"listen": "0.0.0.0",
 			"protocol": "vmess",
 			"settings": {
 				"clients": [{
-					"id": "de04add9-5c68-8bab-950c-08cd5320df18",
+					"id": "938415bb-7df2-14dc-992d-8904a5bb6df2",
 					"alterId": 0
 				}]
 			},
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/vmess"
+					"path": "/TheVmess"
 				}
 			}
 		},
 		{
-			"port": 20000,
+			"port": 666,
 			"listen": "0.0.0.0",
 			"protocol": "vless",
 			"settings": {
 				"clients": [{
-					"id": "de04add9-5c68-8bab-950c-08cd5320df18"
+					"id": "938415bb-7df2-14dc-992d-8904a5bb6df2"
 				}],
 				"decryption": "none"
 			},
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/vless"
+					"path": "/wowVless"
 				}
 			}
 		}
